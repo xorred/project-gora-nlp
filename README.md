@@ -61,3 +61,20 @@ To ensure our findings weren't limited to specific topics, we conducted a 32-sen
 - **Systemic Inefficiency:** Gormati remains significantly more fragmented across all linguistic domains.
 - 
 **Result:** The "Token Tax" is systemic. Regardless of the domain, Gormati consistently exhibits a broader, more "fertile" (inefficient) distribution than Hindi, confirming that the tokenizer lack of Gormati-specific embeddings is a universal barrier for the language.
+
+
+
+---
+
+## 🏁 Experiment 6: Final Quantitative Audit (Full Dataset)
+Our research concluded with a comprehensive audit of the entire `Gora_Dataset`. By processing the full corpus through the Google MuRIL tokenizer, we confirmed a systemic computational inequality.
+
+**Final Global Metrics:**
+* **Hindi Efficiency Score:** 1.194 (Baseline)
+* **Gormati Efficiency Score:** 1.693 (High Cost)
+* **Total Inefficiency Gap:** **41.83%**
+
+![Final Distribution](final_fertility_distribution.png)
+
+### Conclusion
+Project Gora proves that Gormati is currently "taxed" by nearly 42% in standard multilingual environments. This fragmentation (Vector Collapse) highlights a critical need for dedicated Gormati tokenizers and vocabulary expansion to ensure equitable access to AI technology.
