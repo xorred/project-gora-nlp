@@ -31,7 +31,14 @@ To understand *why* tokenizers fail, we analyzed specific grammatical structures
 
 ## 📐 Experiment 3: Mini-Audit & Gormati Live Lab
 We built a quantitative pilot test and an interactive CLI tool to measure real-time vector collapse. 
+## 🕹️ Interactive: Gormati Live Lab
+Want to test the token tax yourself? We built an interactive CLI tool to let you input custom Gormati sentences and their Hindi translations to measure real-time vector collapse.
 
-In our initial mini-audit, we found the model was **14.8% less efficient** on Gormati than Hindi. To test this yourself, you can run our interactive Live Lab:
-```bash
-python 04_gormati_live_lab.py
+Run the lab locally:
+`python 04_gormati_live_lab.py`
+
+**The lab will output:**
+* The raw fragmented tokens for both languages.
+* A real-time Inefficiency Score multiplier.
+* An evaluation flag (e.g., `✅ GREAT SENTENCE! (High Tokenization Failure)` if the ratio exceeds 1.3x).
+In our initial mini-audit, we found the model was **14.8% less efficient** on Gormati than Hindi.
