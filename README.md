@@ -56,4 +56,8 @@ To ensure our findings weren't limited to specific topics, we conducted a 32-sen
 
 ![Multi-Domain Audit](multi_domain_distribution.png)
 
+**Final Result:** - **Hindi Avg Score:** 1.22
+- **Gormati Avg Score:** 1.59
+- **Systemic Inefficiency:** Gormati remains significantly more fragmented across all linguistic domains.
+- 
 **Result:** The "Token Tax" is systemic. Regardless of the domain, Gormati consistently exhibits a broader, more "fertile" (inefficient) distribution than Hindi, confirming that the tokenizer lack of Gormati-specific embeddings is a universal barrier for the language.
