@@ -1,0 +1,34 @@
+id,gormati,hindi,tag,tone
+1,Tu kat ja ro chhi,Tu kaha ja raha hai,Question,Casual with friends and younger ones
+2,Tam kat ja re chho,Aap kaha ja rahe ho,Question,With respect or for elders
+3,Maar naam Rajesh chha,Mera naam Rajesh hai,Intro,Normal
+4,Aaj vatavaran kharaab chha,Aaj mausam kharaab hai,Observation,Normal
+5,Kayi kar re cho,Kya kar rahe ho,Question,With respect or for elders
+6,Kayi kar ro chi,Kya kar raha h,Question,Casual with friends and younger ones
+7,Tamar baper naam kayi chh,aapke pita ka naam kya hai,Genitive Case,With respect or for elders
+8,Taar baper naam kayi chh,Tumhare pita ka naam kya hai,Genitive Case,Casual with friends and younger ones
+9,M ghani dur ruchu,Main Bahut dur rehta hu,Intro,
+10,maar sawar vaya chha,Kal meri shadi hai,Intro,
+11,"Taar bapen ani taar yaadin kes, M aayeto aaj.",Tumhare maa baap ko batana ki main aaj aaya tha,,
+12,Tamar katra chichi aar chha?,Aapke kitne bacche hai?,Question,
+13,M aaj aawu chu,Main aaj aata hu,,
+14,Tu katra wajen aa ro chi,Tum kitne baje aane wale ho,,
+15,sawar sanjola  dungarep java,Kal Sham ko pahad par jatey hai,,
+16,woh parbhati wonur ghar chalege,Woh subah apne ghar chale gaye,,
+17,dopere shik ghano tavdo hetoto,Dopehar k time bahut dhoop thi.,,
+18,raatola hamar light chali javch,Rat ko hamari light chali jati hai,,
+19,Undale maai hamar saari vavadi sukhi padi ch,Garmi mein hamare saare kuwa sukhe pade hai,,
+20,Pani padiye jan khetem jaya,baarish hogi tab hum khet mein jayenge,,
+21,Maar Ek Chhora chha,Mera Ek baccha hain,Number_Counting,
+22,Maar Di chhichhi aar chha,Mere Do bacche hain,Number_Counting,
+23,Maar Tin chhichhi aar chha,Mere Teen bacche hain,Number_Counting,
+24,Maar Char chhichhi aar chha,Mere Char bacche hain,Number_Counting,
+25,Maar Paach chhichhi aar chha,Mere Paanch bacche hain,Number_Counting,
+26,Maar Cho chhichhi aar chha,Mere Che bacche hain,Number_Counting,
+27,Maar Saat chhichhi aar chha,Mere Saat bacche hain,Number_Counting,
+28,Maar Aath chhichhi aar chha,Mere Aath bacche hain,Number_Counting,
+29,Maar Naoo chhichhi aar chha,Mere Nau bacche hain,Number_Counting,
+30,Maar Das chhichhi aar chha,Mere Das bacche hain,Number_Counting,
+31,Paani pi la,Paani pi lo,Imperative_Messenger,
+32,Pisa Chhei,Paise nahi hai,Imperative_Messenger,
+33,Baati Kha la,Khana kha lo,Imperative_Messenger,
