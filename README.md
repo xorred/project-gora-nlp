@@ -29,9 +29,11 @@ To understand *why* tokenizers fail, we analyzed specific grammatical structures
 
 ---
 
-## 📐 Experiment 3: Mini-Audit & Gormati Live Lab
-We built a quantitative pilot test and an interactive CLI tool to measure real-time vector collapse. 
-## 🕹️ Interactive: Gormati Live Lab
+### 📐 Experiment 3: Mini-Quantitative Test
+Our initial audit of 5 sentences confirmed a **14.8% inefficiency gap** compared to Hindi.
+
+
+### 🕹️ Experiment 4: Gormati Live Lab
 Want to test the token tax yourself? We built an interactive CLI tool to let you input custom Gormati sentences and their Hindi translations to measure real-time vector collapse.
 
 Run the lab locally:
@@ -41,4 +43,17 @@ Run the lab locally:
 * The raw fragmented tokens for both languages.
 * A real-time Inefficiency Score multiplier.
 * An evaluation flag (e.g., `✅ GREAT SENTENCE! (High Tokenization Failure)` if the ratio exceeds 1.3x).
-In our initial mini-audit, we found the model was **14.8% less efficient** on Gormati than Hindi.
+
+
+---
+
+## 🥗 Experiment 5: Multi-Domain "Mixed Salad" Audit
+To ensure our findings weren't limited to specific topics, we conducted a 32-sentence audit across four distinct linguistic domains:
+1. **Nature & Time** (Environmental context)
+2. **Social Honorifics** (Casual vs. Respectful verb conjugations)
+3. **Family & Grammar** (Agglutinative suffixes)
+4. **Numerical Systems** (Counting logic)
+
+![Multi-Domain Audit](multi_domain_distribution.png)
+
+**Result:** The "Token Tax" is systemic. Regardless of the domain, Gormati consistently exhibits a broader, more "fertile" (inefficient) distribution than Hindi, confirming that the tokenizer lack of Gormati-specific embeddings is a universal barrier for the language.
