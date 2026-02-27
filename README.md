@@ -74,7 +74,7 @@ Our research concluded with a comprehensive audit of the entire `Gora_Dataset`. 
 * **Gormati Efficiency Score:** 1.693 (High Cost)
 * **Total Inefficiency Gap:** **41.83%**
 
-![Final Distribution](final_fertility_distribution.png)
+![Final Distribution](fertility_distribution.png)
 
 ### Conclusion
 Project Gora proves that Gormati is currently "taxed" by nearly 42% in standard multilingual environments. This fragmentation (Vector Collapse) highlights a critical need for dedicated Gormati tokenizers and vocabulary expansion to ensure equitable access to AI technology.
