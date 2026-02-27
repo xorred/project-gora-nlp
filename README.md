@@ -23,7 +23,7 @@ To understand *why* tokenizers fail, we analyzed specific grammatical structures
 * **The Suffix Problem:** Fails to parse agglutinative suffixes.
   ![Case 2 Suffix](fail_case_2_suffix.png)
 * **Action Verbs:** Continuous action indicators (*riyo*, *cho*) confuse the model.
-  ![Case 3 Verbs](fail_case_3_verbs.png)
+  ![Case 3 Verbs](fail_case_3_verb.png)
 * **Core Vocabulary:** Fails to recognize basic Gormati-specific familial/descriptive words.
   ![Case 4 Vocab](fail_case_4_vocab.png)
 
