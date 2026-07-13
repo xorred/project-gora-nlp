@@ -66,13 +66,25 @@ To ensure our findings weren't limited to specific topics, we conducted a 32-sen
 
 ---
 
-## 🏁 Experiment 6: Final Quantitative Audit (Full Dataset)
-Our research concluded with a comprehensive audit of the entire `Gora_Dataset`. By processing the full corpus through the Google MuRIL tokenizer, we confirmed a systemic computational inequality.
+## 🏁 Experiment 6: Quantitative Audit (In Progress — Gormati-1K)
 
-**Final Global Metrics:**
-* **Hindi Efficiency Score:** 1.194 (Baseline)
-* **Gormati Efficiency Score:** 1.693 (High Cost)
-* **Total Inefficiency Gap:** **41.83%**
+Our initial audit of the full `Gora_Dataset` (32 sentences) produced a preliminary finding:
+
+- **Hindi Efficiency Score:** 1.194 (Baseline)
+- **Gormati Efficiency Score:** 1.693 (High Cost)
+- **Total Inefficiency Gap:** **41.83%** *(pilot estimate, sentence-level token ratio)*
+
+[![Final Distribution](https://github.com/xorred/project-gora-nlp/raw/main/fertility_distribution.png)](/xorred/project-gora-nlp/blob/main/fertility_distribution.png)
+
+**Methodological refinement:** sentence-level token ratios conflate two distinct effects — (1) tokenizer fragmentation, where MuRIL splits Gormati-specific vocabulary into excess subwords due to missing coverage, and (2) cross-linguistic verbosity, where Hindi and Gormati simply use different word counts to express the same meaning, independent of tokenizer quality. Only the first effect represents a genuine "token tax."
+
+We are currently isolating the fragmentation-specific signal (subwords-per-word delta, controlled for verbosity) on a 1,000 sentence-pair parallel corpus — **Gormati-1K** — now under construction. Early batches on this corrected metric show a smaller but still consistent fragmentation penalty; full results pending.
+
+### Conclusion
+
+Project Gora's pilot work indicates Gormati is under-served by standard multilingual tokenizers like MuRIL, with an initial estimate suggesting up to ~42% overhead using a naive sentence-level metric. Ongoing work on the Gormati-1K corpus is refining this into a fragmentation-specific measure that isolates genuine tokenizer inequity from cross-linguistic word-count differences — the goal being a rigorous, defensible case for dedicated Gormati tokenizer support and vocabulary expansion.
+
+**Status: active, validation in progress.**
 
 ![Final Distribution](fertility_distribution.png)
 
