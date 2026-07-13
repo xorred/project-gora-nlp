@@ -80,13 +80,13 @@ Our initial audit of the full `Gora_Dataset` (32 sentences) produced a prelimina
 
 We are currently isolating the fragmentation-specific signal (subwords-per-word delta, controlled for verbosity) on a 1,000 sentence-pair parallel corpus — **Gormati-1K** — now under construction. Early batches on this corrected metric show a smaller but still consistent fragmentation penalty; full results pending.
 
+![Final Distribution](fertility_distribution.png)
+
 ### Conclusion
 
 Project Gora's pilot work indicates Gormati is under-served by standard multilingual tokenizers like MuRIL, with an initial estimate suggesting up to ~42% overhead using a naive sentence-level metric. Ongoing work on the Gormati-1K corpus is refining this into a fragmentation-specific measure that isolates genuine tokenizer inequity from cross-linguistic word-count differences — the goal being a rigorous, defensible case for dedicated Gormati tokenizer support and vocabulary expansion.
 
 **Status: active, validation in progress.**
 
-![Final Distribution](fertility_distribution.png)
 
-### Conclusion
-Project Gora proves that Gormati is currently "taxed" by nearly 42% in standard multilingual environments. This fragmentation (Vector Collapse) highlights a critical need for dedicated Gormati tokenizers and vocabulary expansion to ensure equitable access to AI technology.
+
